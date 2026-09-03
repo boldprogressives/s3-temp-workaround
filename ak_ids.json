@@ -4,5 +4,51 @@
     "67": 115
   },
   "templateset": 157,
-  "assignments": []
+  "assignments": [
+    {
+      "type": "page",
+      "id": 13916,
+      "name": "survey_2026_ro_khanna_ruffalo_sanders",
+      "uri": "/rest/v1/surveyform/4411/",
+      "field": "templateset",
+      "old": "/rest/v1/templateset/101/",
+      "new": "/rest/v1/templateset/157/"
+    },
+    {
+      "type": "page",
+      "id": 13913,
+      "name": "survey_2026_ruffalo_paramount_apology_o98",
+      "uri": "/rest/v1/surveyform/4410/",
+      "field": "templateset",
+      "old": "/rest/v1/templateset/101/",
+      "new": "/rest/v1/templateset/157/"
+    },
+    {
+      "type": "page",
+      "id": 13910,
+      "name": "survey_2026_ruffalo_paramount_apology",
+      "uri": "/rest/v1/surveyform/4409/",
+      "field": "templateset",
+      "old": "/rest/v1/templateset/101/",
+      "new": "/rest/v1/templateset/157/"
+    },
+    {
+      "type": "page",
+      "id": 13890,
+      "name": "signon_2026_abdul_el_sayed_unity",
+      "uri": "/rest/v1/surveyform/4408/",
+      "field": "templateset",
+      "old": "/rest/v1/templateset/101/",
+      "new": "/rest/v1/templateset/157/"
+    },
+    {
+      "type": "page",
+      "id": 13877,
+      "name": "survey_2026_soul_of_the_party",
+      "uri": "/rest/v1/surveyform/4407/",
+      "field": "templateset",
+      "old": "/rest/v1/templateset/101/",
+      "new": "/rest/v1/templateset/157/"
+    }
+  ]
 }
