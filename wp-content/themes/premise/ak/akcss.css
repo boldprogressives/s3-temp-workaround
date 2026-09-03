@@ -1,0 +1,1340 @@
+select {
+  width: 100%;
+}
+
+.footer-glyphs {
+  width: 256px;
+}
+
+.oembed {
+  text-align: center;
+  overflow-x: scroll;
+}
+
+.facebook-message {
+  margin-top: 20px;
+}
+
+.fb-like.fb_edge_widget_with_comment {
+  margin-top: 16px;
+}
+
+.facebook-message img {
+  width: 100px;
+  float: left;
+}
+
+.facebook-message-text {
+  margin-left: 110px;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.thanks ol.thanks-list .facebook-message-text p {
+  font-size: 11px;
+}
+
+.thanks ol.thanks-list li .facebook-message {
+  color: #373737;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.facebook-message-title {
+  margin-bottom: 10px;
+}
+
+.ak-nodisplay {
+  display: none;
+}
+
+.thanks-list {
+  margin-top: 24px;
+}
+
+.thanks-unit.twitter {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-tw-icn.png) no-repeat;
+}
+
+.thanks-unit.facebook {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-fb-icn.png) no-repeat;
+}
+
+.thanks-unit.taf {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-email-icn.png) no-repeat;
+}
+
+.thanks-unit.dailykos {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-kos-icn.png) no-repeat;
+}
+
+.thanks-unit.actblue {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-donate-icn.png) no-repeat;
+}
+
+.thanks-unit.reddit {
+  background: url(https://s3.amazonaws.com/s3.boldprogressives.org/images/ty-reddit-icn.png) no-repeat;
+}
+
+.thanks-unit.span50 {
+  width: 46%;
+  margin-right: 4%;
+}
+
+.thanks-unit > * {
+  margin-left: 48px;
+}
+
+.thanks-unit h2 {
+  font-weight: 400;
+}
+
+.thanks-unit.actblue button {
+  background-image: url(http://i271.photobucket.com/albums/jj159/tzigmunt/ActBlue.jpg);
+  background-repeat: no-repeat;
+  border: none;
+  width: 150px;
+  height: 84px;
+  margin: 12px;
+}
+
+.thanks-unit.actblue form div {
+  float: left;
+  padding-right: 36px;
+  margin-bottom: 12px;
+}
+
+input.ab-donation-input {
+  text-align: right;
+}
+
+body.actionkit .area .thanks-list p.twitter-button {
+  float: left;
+  margin-right: 1em;
+}
+
+body.actionkit .link-a,body.actionkit .link-a:visited {
+  color: #1a86ab;
+  text-decoration: none;
+}
+
+body.actionkit .link-a:hover {
+  color: #052b47;
+  text-decoration: none;
+}
+
+body.actionkit .cobranded .cobrand-logo {
+  max-height: 65px;
+  margin-left: 2%;
+  margin-bottom: 12px;
+}
+
+body.actionkit h2 {
+  color: #1a86ab;
+}
+
+body.actionkit .thanks-unit h2 {
+  margin-right: 8%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+body.actionkit .form-well #media_target {
+  margin-bottom: 16px;
+}
+
+body.actionkit .form-well #media_target table label {
+  width: auto;
+}
+
+body.actionkit .form-well #media_target table td {
+  margin: 0 5px;
+}
+
+body.actionkit .form-well a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+}
+
+body.actionkit .form-well label a {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+}
+
+body.actionkit .header-ribbon h1 {
+  vertical-align: middle;
+  min-height: 124px;
+}
+
+body.actionkit .header-ribbon {
+  min-height: 144px;
+}
+
+footer,#footer {
+  margin-top: 36px;
+}
+
+body.actionkit .page-content-with-form .area textarea {
+  width: 94%;
+  min-height: 200px;
+}
+
+.skip-link {
+  margin: 12px 0 0;
+}
+
+.form-well.call #target_checkboxes .target div.office .office_location {
+  clear: right;
+  float: left;
+}
+
+.form-well.call #target_checkboxes .target div.office .office_fax,.form-well.call #target_checkboxes .target div.office .office_phone {
+  clear: left;
+  float: left;
+  margin-left: 36px;
+}
+
+/* this is only needed because actionkit.js inexplicably prepends a "&nbsp;&nbsp;&nbsp;" to each .target div.office. 
+.form-well.call #target_checkboxes .target div.office input { margin-right: 0; }*/
+.form-well.call #target_checkboxes .target div.office {
+  padding-left: 24px;
+  line-height: 22px;
+}
+
+.form-well.call #target_checkboxes .target label {
+  margin-bottom: 0;
+}
+
+.form-well.call #target_checkboxes .target {
+  padding-top: 4px;
+  clear: both;
+  margin-bottom: 8px;
+}
+
+.form-well.call .local_toggle_label:before,#id_taf_preview_msg {
+  content: "> ";
+  margin-left: 24px;
+}
+
+.form-well #target_checkboxes .target .office {
+  display: none;
+}
+
+.form-well #target_checkboxes .target .office label {
+  display: inline;
+}
+
+.form-well #target_checkboxes .target div,.form-well #target_checkboxes .target span,.ak-inline-taf div,.ak-inline-taf span,.form-well p,.form-well div {
+  font-size: 14px;
+  color: #112b3a;
+}
+
+.aside,.form-well .aside {
+  font-style: italic;
+  font-size: 13px;
+  color: #112b3a;
+  line-height: 18px;
+}
+
+.form-well h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.1em;
+}
+
+body.actionkit .area {
+  margin-top: 24px;
+}
+
+body.actionkit #footer .span33 {
+  width: 40%;
+}
+
+body.actionkit .area p,body.actionkit .area blockquote {
+  margin-right: 8%;
+}
+
+@media (max-width: 767px) {
+  body.actionkit .cobranded img#brand {
+    clear: both;
+  }
+  
+  body.actionkit .cobranded img.cobrand-logo {
+    margin-bottom: 8px;
+    margin-top: 16px;
+  }
+  
+  body.actionkit h1.page-header,body.actionkit .header-ribbon {
+    min-height: 0;
+  }
+  
+  body.actionkit footer,#footer {
+    margin-top: 0;
+  }
+  
+  body.actionkit .span66,body.actionkit .page-content-with-form .span33 {
+    width: 96%;
+  }
+  
+  body.actionkit .area p,body.actionkit .area blockquote {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  
+  body.actionkit .petition-form {
+    clear: both;
+  }
+  
+  body.actionkit div.form-well {
+    margin-top: 24px;
+    border-radius: 4px;
+  }
+  
+  body.actionkit #footer a.muted.take-action {
+    clear: right;
+    float: left;
+  }
+  
+  body.actionkit .area {
+    margin-top: 0;
+  }
+  
+  body.actionkit .area .two-by-two .span50 {
+    width: 96%;
+    margin-bottom: 36px;
+  }
+
+}
+
+body.actionkit .footer-vert {
+  background-image: none;
+}
+
+.form-well ul.ak-err {
+  list-style-type: none;
+  margin: -8px 0 4px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+#footer .endorsements {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  opacity: .8;
+  font-weight: 300;
+}
+
+#footer .endorsements p {
+  font-style: italic;
+  line-height: 1.3em;
+  text-align: right;
+  margin-right: 4px;
+}
+
+#footer .endorsements p.quote {
+  font-size: 28px;
+  margin-top: 16px;
+}
+
+#footer .endorsements p.cite {
+  font-size: 22px;
+  margin-right: 48px;
+}
+
+#footer .footer-glyphs>* {
+  opacity: .8;
+  margin-top: 0;
+  margin-left: 15px;
+  float: left;
+  position: static;
+}
+
+.form-well input[type=text] {
+  border-top: 1px solid #ccc;
+}
+
+.ball-blue-bg,.header-ribbon {
+  background-color: #1a86ab;
+}
+
+.form-well button {
+  border-radius: 4px;
+}
+
+body.actionkit blockquote strong {
+  font-style: normal;
+}
+
+body.actionkit blockquote em strong,body.actionkit blockquote strong em {
+  font-style: italics;
+}
+
+/* body.actionkit .page-content-with-form .span66 > * { margin-right: 10%; } this is unnecessary. width-align has padding */
+body.actionkit .page-content-with-form .span66 a {
+  color: #1a86ab;
+}
+
+body.actionkit .page-content-with-form .span66 a:visited {
+  color: #1a86ab;
+}
+
+body.actionkit .page-content-with-form .span66 a:hover {
+  color: #1a86ab;
+}
+
+.form-well input[type=checkbox],.form-well input[type=radio] {
+  float: left;
+  line-height: 2em;
+  margin-right: 12px;
+  clear: left;
+}
+
+.form-well h1,.form-well p,.form-well label,.form-well ul,.form-well li,.form-well span,.form-well div {
+  color: #112b3a;
+}
+
+.form-well #survey-questions > div + div {
+  margin-top: 18px;
+}
+
+.form-well ::-webkit-input-placeholder {
+  color: #112b3a;
+  text-transform: lowercase;
+}
+
+.form-well ::-moz-placeholder {
+  color: #112b3a;
+  text-transform: lowercase;
+}
+
+.form-well :-ms-input-placeholder {
+  color: #112b3a;
+  text-transform: lowercase;
+}
+
+.form-well :-moz-placeholder {
+  color: #112b3a;
+  text-transform: lowercase;
+}
+
+#progress {
+  margin: 16px 0;
+}
+
+.form-well input[type=text],.form-well textarea {
+  padding: 6px 10px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.form-well input[type=text],.form-well textarea,/*form-well button.take-action,apparently this button is different... needs to be at 100% */
+.form-well label,.form-well p {
+  width: 95%;
+}
+
+@media (min-width: 1200px) {
+  .form-well button.take-action,.form-well p,.form-well label {
+    width: 343px;
+  /* uses %'age when width-align is not fixed */
+  }
+  
+  .form-well {
+    width: 100%;
+  }
+  
+  .form-well input[type=text],.form-well textarea {
+    width: 323px;
+  /* use 96% when width-align is not fixed */
+  }
+
+}
+
+.form-well input[type=text],.form-well textarea {
+  background-color: #fff;
+}
+
+/* this does not use our Red-Orange */
+.progress-bar-inner,.form-well .progress-bar-inner {
+  position: relative;
+  margin-top: -42px;
+  color: #fff;
+  text-align: center;
+}
+
+.progress-bar-text {
+  font-size: 11px;
+  text-align: center;
+}
+
+/* main styling adaptations for layout and overall look */
+body.actionkit .page-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  text-align: left;
+  font-size: 36px;
+  line-height: 41.3px;
+  background-color: inherit;
+  text-transform: inherit;
+}
+
+body.actionkit .header-ribbon .ribbon-image {
+  height: 144px;
+  float: right;
+  margin: 0 0 0 20px;
+}
+
+/* body.actionkit .area p, body.actionkit .area blockquote { margin-right: 8%; } */
+body.actionkit .act.branding {
+  padding-top: 31px;
+}
+
+body.actionkit .area p {
+  padding-top: .8em;
+  padding-bottom: .5em;
+}
+
+/* the js version of the quote sign seemed unnecessary, and difficult with our WYSIWYG, so this is for the css version */
+body.actionkit blockquote {
+  background-image: url(//s3.amazonaws.com/s3.boldprogressives.org/images/blue-quote.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+body.actionkit blockquote,article blockquote {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #444;
+  margin-top: 15px;
+}
+
+/* same */
+body.actionkit blockquote,article blockquote p {
+  padding-left: 45px;
+  padding-bottom: 0;
+}
+
+/* importantly, this element's margin-top is later adjusted via javascript. should probably have an #id */
+.form-well {
+  margin-top: -148px;
+  margin-bottom: 36px;
+}
+
+/* this will be the standard styling for an AK form. */
+.form-well {
+  padding: 20px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #f3f3f3;
+  border-color: #e3e3e3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* slightly modified from the original (just changed the %) */
+button.take-action,a.take-action {
+/*display: block;*/
+  width: 100%;
+  margin: 15px 0 0;
+  color: #fff;
+  background: #1a86ab;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px 2%;
+}
+
+/* same, but these are the default .flat-button settings for the RHS mostly, the smaller ones. So I've left them commented out */
+.take-action,.flat-button {
+/*background: #fff;
+	color: #000;
+	padding: 5px 0;
+	font-weight: 600;*/
+  text-transform: uppercase;
+/*
+	font-size: 12px;
+	line-height: 12px;
+	opacity: .9;
+	width: 106px;*/
+  text-align: center;
+/*display: inline-block;*/
+  position: relative;
+  top: -2px;
+  opacity: 1;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/* same, just adding our selectors to existing :hover rules.  */
+button.take-action:hover,a.take-action:hover,.flat-button:hover {
+  text-decoration: none;
+  opacity: .8;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/* same, but I'm not sure why the border things are here at all. these settings should be in effect for all .flat-button's */
+button.take-action,a.take-action,.store .flat-button,footer .flat-button {
+  font-weight: 400;
+  border-color: none;
+  border-width: 0;
+  border-style: none;
+}
+
+.ab {
+  display: none;
+}
+
+.ab.default {
+  display: block;
+}
+
+.form-well .disclaimer {
+  margin-top: 12px;
+}
+
+#footer a.muted.take-action {
+  margin-top: 0;
+  margin-bottom: 24px;
+  width: auto;
+  padding: 8px 32px;
+  background-color: #fff;
+  color: #052b47;
+/* clear: right;*/
+}
+
+body.actionkit.thanks-page .area .take-action {
+  width: auto;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.fb_hidden {
+  position: absolute;
+  top: -10000px;
+  z-index: 10001;
+}
+
+.fb_invisible {
+  display: none;
+}
+
+.fb_reset {
+  background: none;
+  border: 0;
+  border-spacing: 0;
+  color: #000;
+  cursor: auto;
+  direction: ltr;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  word-spacing: normal;
+}
+
+.fb_reset > div {
+  overflow: hidden;
+}
+
+.fb_link img {
+  border: none;
+}
+
+.fb_dialog {
+  background: rgba(82,82,82,.7);
+  position: absolute;
+  top: -10000px;
+  z-index: 10001;
+}
+
+.fb_dialog_advanced {
+  padding: 10px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.fb_dialog_content {
+  background: #fff;
+  color: #333;
+}
+
+.fb_dialog_close_icon {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+  _background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  position: absolute;
+  right: 18px;
+  top: 17px;
+  width: 15px;
+  top: 8px;
+  right: 7px;
+}
+
+.fb_dialog_mobile .fb_dialog_close_icon {
+  top: 5px;
+  left: 5px;
+  right: auto;
+}
+
+.fb_dialog_padding {
+  background-color: transparent;
+  position: absolute;
+  width: 1px;
+  z-index: -1;
+}
+
+.fb_dialog_close_icon:hover {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;
+  _background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);
+}
+
+.fb_dialog_close_icon:active {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;
+  _background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);
+}
+
+.fb_dialog_loader {
+  background-color: #f2f2f2;
+  border: 1px solid #606060;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.fb_dialog_top_left {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;
+  left: -10px;
+  top: -10px;
+}
+
+.fb_dialog_top_right {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;
+  right: -10px;
+  top: -10px;
+}
+
+.fb_dialog_bottom_left {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;
+  bottom: -10px;
+  left: -10px;
+}
+
+.fb_dialog_bottom_right {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;
+  right: -10px;
+  bottom: -10px;
+}
+
+.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom {
+  position: absolute;
+  background: #525252;
+  filter: alpha(opacity=70);
+  opacity: .7;
+}
+
+.fb_dialog_vert_left,.fb_dialog_vert_right {
+  width: 10px;
+  height: 100%;
+}
+
+.fb_dialog_vert_left {
+  margin-left: -10px;
+}
+
+.fb_dialog_vert_right {
+  right: 0;
+  margin-right: -10px;
+}
+
+.fb_dialog_horiz_top,.fb_dialog_horiz_bottom {
+  width: 100%;
+  height: 10px;
+}
+
+.fb_dialog_horiz_top {
+  margin-top: -10px;
+}
+
+.fb_dialog_horiz_bottom {
+  bottom: 0;
+  margin-bottom: -10px;
+}
+
+.fb_dialog_iframe {
+  line-height: 0;
+}
+
+.fb_dialog_content .dialog_title {
+  background: #6d84b4;
+  border: 1px solid #3b5998;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.fb_dialog_content .dialog_title > span {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+  float: left;
+  padding: 5px 0 7px 26px;
+}
+
+body.fb_hidden {
+  -webkit-transform: none;
+  height: 100%;
+  margin: 0;
+  overflow: visible;
+  position: absolute;
+  top: -10000px;
+  left: 0;
+  width: 100%;
+}
+
+.fb_dialog.fb_dialog_mobile.loading {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) #fff no-repeat 50% 50%;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 10001;
+}
+
+.fb_dialog.fb_dialog_mobile.loading.centered {
+  max-height: 590px;
+  min-height: 590px;
+  max-width: 500px;
+  min-width: 500px;
+}
+
+#fb-root #fb_dialog_ipad_overlay {
+  background: rgba(0,0,0,.45);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 10000;
+}
+
+#fb-root #fb_dialog_ipad_overlay.hidden {
+  display: none;
+}
+
+.fb_dialog.fb_dialog_mobile.loading iframe {
+  visibility: hidden;
+}
+
+.fb_dialog_content .dialog_header {
+  -webkit-box-shadow: #fff 0 1px 1px -1px inset;
+  background: 0;
+  border-bottom: 1px solid;
+  border-color: #1d4088;
+  color: #fff;
+  font: 14px Helvetica,sans-serif;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  text-shadow: rgba(0,30,84,.296875) 0 -1px 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.fb_dialog_content .dialog_header table {
+  -webkit-font-smoothing: subpixel-antialiased;
+  height: 43px;
+  width: 100%;
+}
+
+.fb_dialog_content .dialog_header td.header_left {
+  font-size: 12px;
+  padding-left: 5px;
+  vertical-align: middle;
+  width: 60px;
+}
+
+.fb_dialog_content .dialog_header td.header_right {
+  font-size: 12px;
+  padding-right: 5px;
+  vertical-align: middle;
+  width: 60px;
+}
+
+.fb_dialog_content .touchable_button {
+  background: 0;
+  border: 1px solid #29447e;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: rgba(0,0,0,.117188) 0 1px 1px inset,rgba(255,255,255,.167969) 0 1px 0;
+  display: inline-block;
+  margin-top: 3px;
+  max-width: 85px;
+  line-height: 18px;
+  padding: 4px 12px;
+  position: relative;
+}
+
+.fb_dialog_content .dialog_header .touchable_button input {
+  border: none;
+  background: none;
+  color: #fff;
+  font: 12px Helvetica,sans-serif;
+  font-weight: 700;
+  margin: 2px -12px;
+  padding: 2px 6px 3px;
+  text-shadow: rgba(0,30,84,.296875) 0 -1px 0;
+}
+
+.fb_dialog_content .dialog_header .header_center {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fb_dialog_content .dialog_content {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+  border: 1px solid #555;
+  border-bottom: 0;
+  border-top: 0;
+  height: 150px;
+}
+
+.fb_dialog_content .dialog_footer {
+  background: #f2f2f2;
+  border: 1px solid #555;
+  border-top-color: #ccc;
+  height: 40px;
+}
+
+#fb_dialog_loader_close {
+  float: left;
+}
+
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button {
+  text-shadow: rgba(0,30,84,.296875) 0 -1px 0;
+}
+
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+  visibility: hidden;
+}
+
+.fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+}
+
+.fb_iframe_widget span {
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+}
+
+.fb_iframe_widget iframe {
+  position: absolute;
+}
+
+.fb_iframe_widget_lift {
+  z-index: 1;
+}
+
+.fb_hide_iframes iframe {
+  position: relative;
+  left: -10000px;
+}
+
+.fb_iframe_widget_loader {
+  position: relative;
+  display: inline-block;
+}
+
+.fb_iframe_widget_fluid {
+  display: inline;
+}
+
+.fb_iframe_widget_fluid span {
+  width: 100%;
+}
+
+.fb_iframe_widget_loader iframe {
+  min-height: 32px;
+  z-index: 2;
+  zoom: 1;
+}
+
+.fb_iframe_widget_loader .FB_Loader {
+  background: url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;
+  height: 32px;
+  width: 32px;
+  margin-left: -16px;
+  position: absolute;
+  left: 50%;
+  z-index: 4;
+}
+
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong {
+  background: none;
+  border-spacing: 0;
+  border: 0;
+  direction: ltr;
+  font-style: normal;
+  font-variant: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  word-spacing: normal;
+  vertical-align: baseline;
+}
+
+.fb_connect_bar_container {
+  position: fixed;
+  left: 0 !important;
+  right: 0 !important;
+  height: 42px !important;
+  padding: 0 25px !important;
+  margin: 0 !important;
+  vertical-align: middle !important;
+  border-bottom: 1px solid #333 !important;
+  background: #3b5998 !important;
+  z-index: 99999999 !important;
+  overflow: hidden !important;
+}
+
+.fb_connect_bar_container_ie6 {
+  position: absolute;
+  top: expression(document.compatMode=="CSS1Compat"?document.documentElement.scrollTop+"px":body.scrollTop+"px");
+}
+
+.fb_connect_bar {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  padding: 6px 0 0 !important;
+  background: none;
+  color: #fff !important;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  text-indent: 0 !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+}
+
+.fb_connect_bar a:hover {
+  color: #fff;
+}
+
+.fb_connect_bar .fb_profile img {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin: 0 6px 5px 0;
+}
+
+.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a {
+  color: #bac6da;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.fb_connect_bar .fb_buttons {
+  float: right;
+  margin-top: 7px;
+}
+
+.fb_edge_widget_with_comment {
+  position: relative;
+  z-index: 1000;
+}
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget {
+  position: absolute;
+}
+
+.fb_edge_widget_with_comment span.fb_send_button_form_widget {
+  z-index: 1;
+}
+
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader {
+  left: 0;
+  top: 1px;
+  margin-top: 6px;
+  margin-left: 0;
+  background-position: 50% 50%;
+  background-color: #fff;
+  height: 150px;
+  width: 394px;
+  border: 1px #666 solid;
+  border-bottom: 2px solid #283e6c;
+  z-index: 1;
+}
+
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader {
+  background-color: #000;
+  border-bottom: 2px solid #ccc;
+}
+
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader {
+  margin-top: 0;
+}
+
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright {
+  position: fixed !important;
+  bottom: 0;
+  z-index: 999;
+}
+
+.fbpluginrecommendationsbarleft {
+  left: 10px;
+}
+
+.fbpluginrecommendationsbarright {
+  right: 10px;
+}
+
+[touch-action=none] {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+[touch-action=pan-x] {
+  -ms-touch-action: pan-x;
+  touch-action: pan-x;
+}
+
+[touch-action=pan-y] {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+[touch-action=scroll],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"] {
+  -ms-touch-action: pan-x pan-y;
+  touch-action: pan-x pan-y;
+}
+
+.lightbox button.take-action:hover,.lightbox a.take-action:hover,.lightbox .flat-button:hover,label.radio:hover {
+  text-decoration: none;
+  opacity: .8;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+#lightbox_error {
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+  display: block;
+  margin: 1em 0;
+}
+
+#join_bp button.take-action,#join_bp a.take-action {
+  width: auto;
+  display: inline-block;
+  color: #fff;
+  background: #1a86ab;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  line-height: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.lightbox #join_bp .take-action {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: -2px;
+  opacity: 1;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-top: .5em;
+}
+
+form#join_bp {
+  width: 442px;
+  display: block;
+  margin: auto;
+}
+
+input[type=text].error,input[type=password].error,input[type=datetime].error,input[type=datetime-local].error,input[type=date].error,input[type=month].error,input[type=time].error,input[type=week].error,input[type=number].error,input[type=email].error,input[type=url].error,input[type=search].error,input[type=tel].error,input[type=color].error,.uneditable-input.error {
+  background: #ffc0cb;
+}
+
+/*  lightbox styles */
+.lightbox h2 {
+  font-family: 'Open Sans Condensed',helvetica,arial,sans-serif;
+  color: #052B47;
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.lightbox p.lightbox-description {
+  margin-bottom: 15px;
+}
+
+.lightbox input[type=text],.lightbox input[type=password],.lightbox input[type=datetime],.lightbox input[type=datetime-local],.lightbox input[type=date],.lightbox input[type=month],.lightbox input[type=time],.lightbox input[type=week],.lightbox input[type=number],.lightbox input[type=email],.lightbox input[type=url],.lightbox input[type=search],.lightbox input[type=tel],.lightbox input[type=color],.lightbox .uneditable-input {
+  background: #f3f3f3;
+  padding: 6px 10px;
+  font-size: 16px;
+  margin: 10px 2px;
+  width: 44%;
+}
+
+.lightbox input[type=text],.lightbox input[type=email] {
+  margin: 3px 2px;
+}
+
+.join_bp input[type=email]#email {
+  width: 65%;
+}
+
+.join_bp input[type=text]#zip {
+  width: 28%;
+}
+
+#survey-questions > div {
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+
+#survey-questions p {
+  margin-bottom: 10px;
+}
+
+.lightbox {
+	position: fixed;
+	width: 90%;
+	max-width: 600px;
+	height: auto;
+	background: #fff;
+	top: 100px;
+	padding: 20px;
+	z-index: 200;
+	display: block;
+	text-align: center;
+	max-height: 75%;
+	overflow-y: auto;
+	left: 0%;
+	right: 0%;
+	margin: 2% auto;
+}
+
+.close_box {
+  display: block;
+  margin-right: 2px;
+  float: right;
+  color: #555;
+  border: solid 1px #555;
+  padding: 0 2px;
+  font-size: 18px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.close_box:hover {
+  background: #f3f3f3;
+}
+
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+  z-index: 100;
+}
+
+.lightbox img#brand {
+  width: 300px;
+}
+
+/* mobile styles */
+@media (only screen and max-width: 767px) {
+  .hidden-phone {
+    display: none;
+  }
+  
+  .lightbox {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+  }
+  
+  input[type=text].campaign_website {
+    width: auto;
+  }
+  
+  button[type=submit] {
+    width: auto;
+  }
+
+}
+
+input[type=radio] + label {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 1.3em;
+}
