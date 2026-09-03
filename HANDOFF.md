@@ -35,12 +35,21 @@ emails sent today point at it.
 - Memory note saved for Claude Code at
   `~/.claude/projects/C--dev-PCCC-S3-Temp-Workaround/memory/`.
 
-### In progress when this was written
+### Verified (2026-09-03, after cloning)
 
-- An Opus subagent was verifying wrappers 114/115 and templateset 157: no remaining
-  `amazonaws.com` references, no `.gzip` suffixes in CDN URLs, originals untouched. It
-  was also fixing `scripts/ak_assign.py`. If `ak_ids.json` and the three ActionKit
-  objects exist, treat cloning as done and re-run the verification yourself (see below).
+- Wrappers 114/115 and all 88 templates in set 157: zero `amazonaws.com` references,
+  72 distinct jsDelivr URLs, none ending in `.gzip`.
+- Originals (wrapper 2, wrapper 67, templateset 101 and its 88 templates) byte-identical
+  to a pre-write snapshot. Set 101 is still the site default.
+- Known gaps in set 157 that do not matter for survey pages: the two `.txt` event
+  tell-a-friend templates are empty because ActionKit's validator refuses `.txt`
+  filenames over REST; `ngpvan_payments_confirm.html` kept stock content.
+- Wrapper **113** is a probe created by mistake during diagnosis. It is hidden and renamed
+  `ZZ IGNORE - probe created in error 2026-09-03 (unused)`. Ignore it.
+- The 15 newest live survey pages all use templateset 101, so set 157 covers them.
+- `scripts/ak_assign.py` was rewritten to write `templateset` on the page's surveyform
+  and to fall back from PATCH to PUT. The read path (`--list-pages`) is tested. The write
+  path has NOT been exercised yet; test on one page and check the printed before/after.
 
 ### Not done
 
