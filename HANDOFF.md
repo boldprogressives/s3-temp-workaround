@@ -44,14 +44,14 @@ emails sent today point at it.
 
 ### Not done
 
-1. **Three images never recovered** (not in Wayback, Chrome cache, Gmail, Drive, or disk):
-   - `images/Sticker_-_I_heart_Zohran_Mamdani_with_headshot.png` (mailing wrapper footer
-     promo). Original exists as an inline attachment in Keith's Gmail thread
-     "[APPROVE] I ❤️ Zohran Sticker designs", design #2 "Face". Keith must save it.
-   - `images/Icon-X.png` (social row). Fallback: copy `images/Icon-TW.png` to that name.
-   - `images/Icon-BSKY.png` (social row). Fallback: remove the Bluesky `<a>` from wrapper 114.
-   Keith has been asked to either supply the PNGs (drop into `images/`, commit, push) or
-   approve the fallbacks. Do not fabricate brand icons.
+1. **Three images never recovered** (not in Wayback, Chrome cache, Gmail, Drive, or disk).
+   Keith decided on 2026-09-03, all applied:
+   - Mamdani sticker: the block was already inside an HTML comment in wrapper 2, so it is
+     hidden in wrapper 114 too. Nothing to do.
+   - `images/Icon-X.png`: committed as a copy of the Twitter bird `Icon-TW.png`. Replace
+     with the real X icon later if Keith supplies it (then purge the jsDelivr cache).
+   - Bluesky: the `<td>` containing the `Icon-BSKY.png` link was removed from wrapper 114
+     via PUT. Wrapper 2 still has it.
 2. **No mailing or page has been assigned yet.** Keith will name mailing ids and survey
    page short names.
 3. **Verification in the wild**: load one converted survey page and confirm zero 403s;
@@ -103,6 +103,9 @@ needs a purge: GET `https://purge.jsdelivr.net/gh/boldprogressives/s3-temp-worka
 
 - ActionKit REST: POSTing `lang` on `/emailwrapper/` returns a bare 401 for this API
   user. Omit it; new objects default to the same language.
+- ActionKit REST: PATCH on `/emailwrapper/<id>/` also returns a bare 401. Use PUT with
+  the full object minus `id`, `resource_uri`, `created_at`, `updated_at`, `lang`.
+  Returns 204 on success.
 - A new templateset created via POST is born with its own default templates. Overwrite
   them by filename with PUT (full representation), then POST any filenames that did not
   exist. `ak_clone.py` does this.
