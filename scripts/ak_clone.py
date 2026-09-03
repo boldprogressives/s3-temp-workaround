@@ -86,11 +86,15 @@ def clone_templateset(ids, dry):
     for t in tmpls:
         fn, code = t["filename"], rewrite(t["code"])
         cur = existing.get(fn)
-        if cur and cur["code"] == code:
+        # ActionKit strips the trailing newline when it saves a template, so an
+        # exact compare would never match and every re-run would rewrite the file.
+        if cur and cur["code"].rstrip("\r\n") == code.rstrip("\r\n"):
             already += 1
             continue
-        if not VALID_FILENAME.match(fn):
-            # ActionKit's own validator refuses these; nothing the API can do.
+        if not VALID_FILENAME.match(fn) or not code.strip():
+            # ActionKit's own validator refuses these filenames, and it requires a
+            # non-empty 'code', so a template that is empty in the source set cannot
+            # be reproduced either. Nothing the API can do; leave the copy as-is.
             unwritable.append(fn)
             skipped += 1
             continue
