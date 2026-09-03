@@ -1,0 +1,109 @@
+{
+  "found": {
+    "images/logo5.gif": {
+      "dest": "images/logo5.gif",
+      "source": "already present"
+    },
+    "images/BUTTON_DONATE_DBlue.png": {
+      "dest": "images/BUTTON_DONATE_DBlue.png",
+      "source": "already present"
+    },
+    "images/Icon-FB.png": {
+      "dest": "images/Icon-FB.png",
+      "source": "already present"
+    },
+    "images/Icon-INST.png": {
+      "dest": "images/Icon-INST.png",
+      "source": "already present"
+    },
+    "images/Icon-YT.png": {
+      "dest": "images/Icon-YT.png",
+      "source": "already present"
+    },
+    "images/Icon-TW.png": {
+      "dest": "images/Icon-TW.png",
+      "source": "already present"
+    },
+    "favicon.ico": {
+      "dest": "favicon.ico",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/ak/bootstrap-comp.min.css.gzip": {
+      "dest": "wp-content/themes/premise/ak/bootstrap-comp.min.css",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/style.css.gzip": {
+      "dest": "wp-content/themes/premise/style.css",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/ak/akcss.css.gzip": {
+      "dest": "wp-content/themes/premise/ak/akcss.css",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/ak/bootstrap.min.js.gzip": {
+      "dest": "wp-content/themes/premise/ak/bootstrap.min.js",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/ak/jquery.embedly.min.js.gzip": {
+      "dest": "wp-content/themes/premise/ak/jquery.embedly.min.js",
+      "source": "already present"
+    },
+    "images/ak-plugins_new.js": {
+      "dest": "images/ak-plugins_new.js",
+      "source": "already present"
+    },
+    "images/pccc-logo.jpg": {
+      "dest": "images/pccc-logo.jpg",
+      "source": "already present"
+    },
+    "wp-content/themes/premise/img/pccc-logo.jpg": {
+      "dest": "wp-content/themes/premise/img/pccc-logo.jpg",
+      "source": "already present"
+    },
+    "images/ak-dfa-logo.jpg": {
+      "dest": "images/ak-dfa-logo.jpg",
+      "source": "already present"
+    },
+    "images/ak-credo-logo.jpg": {
+      "dest": "images/ak-credo-logo.jpg",
+      "source": "already present"
+    },
+    "images/ak-dk-logo.jpg": {
+      "dest": "images/ak-dk-logo.jpg",
+      "source": "already present"
+    },
+    "images/ak-moveon-logo.jpg": {
+      "dest": "images/ak-moveon-logo.jpg",
+      "source": "already present"
+    },
+    "images/fb-ak-icn.png": {
+      "dest": "images/fb-ak-icn.png",
+      "source": "already present"
+    },
+    "images/tw-ak-icn.png": {
+      "dest": "images/tw-ak-icn.png",
+      "source": "already present"
+    },
+    "images/actblue-contribute-button-150px.png": {
+      "dest": "images/actblue-contribute-button-150px.png",
+      "source": "already present"
+    },
+    "images/check.png": {
+      "dest": "images/check.png",
+      "source": "already present"
+    },
+    "images/facebook-share.jpg": {
+      "dest": "images/facebook-share.jpg",
+      "source": "already present"
+    },
+    "images/Screen_Shot_2016-01-09_at_8.41.27_AM.png": {
+      "dest": "images/Screen_Shot_2016-01-09_at_8.41.27_AM.png",
+      "source": "already present"
+    }
+  },
+  "missing": [
+    "images/Sticker_-_I_heart_Zohran_Mamdani_with_headshot.png",
+    "images/Icon-BSKY.png",
+    "images/Icon-X.png"
+  ]
+}

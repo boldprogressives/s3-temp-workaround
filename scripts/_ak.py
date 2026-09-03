@@ -6,6 +6,7 @@ C:/dev/PCCC_Email_Drafting/.env, or ~/.claude/.env (first hit wins).
 import json
 import os
 import re
+import time
 
 import requests
 
@@ -41,10 +42,27 @@ AUTH = (_E.get("ACTIONKIT_USERNAME"), _E.get("ACTIONKIT_PASSWORD"))
 HDR = {"Accept": "application/json", "Content-Type": "application/json"}
 
 
+def _retry(fn, what, tries=5):
+    """Retry transient connection failures. Only ever used for idempotent verbs
+    (GET, PATCH) -- never POST, so a lost response cannot double-create an object.
+    """
+    last = None
+    for i in range(tries):
+        try:
+            return fn()
+        except (requests.ConnectionError, requests.Timeout) as e:
+            last = e
+            print(f"  (transient {type(e).__name__} on {what}, retry {i + 1}/{tries - 1})")
+            time.sleep(1.5 * (i + 1))
+    raise last
+
+
 def get(path, **params):
-    r = requests.get(BASE + path, auth=AUTH, headers=HDR, params=params, timeout=60)
-    r.raise_for_status()
-    return r.json()
+    def once():
+        r = requests.get(BASE + path, auth=AUTH, headers=HDR, params=params, timeout=60)
+        r.raise_for_status()
+        return r.json()
+    return _retry(once, f"GET {path}")
 
 
 def post(path, payload):
@@ -56,10 +74,24 @@ def post(path, payload):
 
 
 def patch(path, payload):
-    r = requests.patch(BASE + path, auth=AUTH, headers=HDR, data=json.dumps(payload), timeout=60)
-    if r.status_code >= 400:
-        raise RuntimeError(f"PATCH {path} -> {r.status_code}: {r.text[:500]}")
-    return r
+    def once():
+        r = requests.patch(BASE + path, auth=AUTH, headers=HDR, data=json.dumps(payload), timeout=60)
+        if r.status_code >= 400:
+            raise RuntimeError(f"PATCH {path} -> {r.status_code}: {r.text[:500]}")
+        return r
+    return _retry(once, f"PATCH {path}")
+
+
+def put(path, payload):
+    """PATCH is rejected with a bare 401 for the keith-api user on this install,
+    so writes to existing objects go through PUT with a complete representation.
+    """
+    def once():
+        r = requests.put(BASE + path, auth=AUTH, headers=HDR, data=json.dumps(payload), timeout=60)
+        if r.status_code >= 400:
+            raise RuntimeError(f"PUT {path} -> {r.status_code}: {r.text[:500]}")
+        return r
+    return _retry(once, f"PUT {path}")
 
 
 def rewrite(text):
